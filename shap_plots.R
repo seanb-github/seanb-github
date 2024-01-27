@@ -3,8 +3,6 @@ library(tidyverse) ## for data wrangling
 library(ggplotify) ## to convert pheatmap to ggplot2
 library(heatmaply) ## for constructing interactive heatmap
 
-setwd("C:/Users/sreabagcik/git/multiverse_cluster_analysis/Data")
-
 rownames(shap_s2) <- shap_s2[,1]
 
 shap_s2 <- shap_s2[,-1]
