@@ -6,12 +6,6 @@ rm(list=ls())
   library(ggplot2)
 }
 
-#
-M2_BinaryMatrix <- readRDS("/Users/seanvanbork/Desktop/multiverse_cluster_analysis/Data/M2_BinaryMatrix.rds")
-M2_BinaryMatrix <- M2_BinaryMatrix[, -c(4,6,8)]
-M1_BinaryMatrix <- M1_BinaryMatrix_v2[, -c(3,9)]
-#
-
 set_size = function(w, h, factor=1.5) {
   s = 1 * factor
   options(
